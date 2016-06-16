@@ -1,3 +1,248 @@
-body {
-	background: snow;
+*{
+	padding: 0px;
+	margin: 0px;
 }
+
+
+body {
+	background: #E7F5FF;
+	font-size: 1.1rem;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	font-family: Arial, sans-serif;
+}
+/* nav bar */
+nav{
+	background: #6E82F8;
+}
+
+header ul{
+	list-style-type: none;
+	width: 100%;
+}
+
+header li{
+	width: 20%;
+	display: inline-block;
+}
+
+header a{
+	text-decoration: none;
+	color: darkblue;
+	padding: 10px;
+}
+
+section{
+	padding-top: 3em;
+}
+
+/* header section */
+.welcome{
+	background: url("../images/shutterstock_299616500.jpg");
+	background-position: fixed;
+	background-size: cover;
+	height: 400px;
+	text-align: center;
+	color: white;
+}
+
+.welcome h1{
+	padding-bottom: 3em;
+    padding-top: 4em;
+}
+
+/* legal services section */
+
+.service-container{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
+
+.service-container div{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	margin-top: 4em;
+}
+
+.service-div{
+	width: 49%;
+}
+
+.service-div img{
+width: 100px;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+.service-div p{
+	margin: 0 auto;
+	width: 60%;
+}
+
+/* Find out More Section */
+.find-out-more{
+	background: url("../images/shutterstock_307415057.jpg");
+	background-position: fixed;
+	background-size: cover;
+	height: 800px;
+}
+
+.find-out-more h1{
+	padding-bottom: 2em;
+}
+
+.find-out-more div{
+	width: 45%;
+	padding: 2em;
+}
+
+.find-out-more ul{
+	padding-top: 2em;
+    padding-left: 1em;
+    margin-bottom: 4em;
+}
+
+.find-out-more div .button,
+.button{
+	padding: 0.6em;
+    width: 150px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.button:hover{
+	background: white;
+	cursor: pointer;
+}
+
+
+/* The right choice section */
+.the-right-choice{
+	padding: 3em 2em;
+}
+.choice-container{
+	border-bottom: 1px solid black;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
+
+.the-right-choice h1{
+	padding-bottom: 2em;
+}
+
+.choice-container div{
+	margin-bottom: 2em;
+	display: inline-block;
+}
+
+.choice-image img{
+	width: 100px;
+}
+
+/* Contact Us */
+.contact-us h1{
+	padding-top: 2em;
+}
+
+select{
+	font-size: 15px;
+	background-color: white;
+	border-radius: 0px;
+	width: 200px;
+	height: 36px;
+	margin: 1.5em 0;
+	border: 2px solid black;
+}
+
+#subtopic{
+	margin-left: 100px;
+}
+
+input{
+	font-size: 15px;
+	height: 36px;
+	width: 50%;
+	margin: 1.5em 0;
+	padding: 0 10px;
+	border: 2px solid black;
+}
+
+textarea{
+	font-size: 15px;
+	width: 100%;
+	height: 26em;
+	padding: 10px 10px;
+	margin-bottom: 3em;
+	border: 2px solid black;
+}
+
+/* resources Section */
+.resources{
+	background: #6E82F8;
+	color: white;
+	padding-bottom: 3em;
+}
+
+.resources p{
+	text-align: center;
+}
+
+#convenience{
+	margin: 3em auto;
+	width: 40%;
+	text-align: left;
+}
+
+.resources .button{
+	border: 2px solid white;
+}
+
+
+/* footer section */
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 3em 2em;
+}
+
+footer ul{
+	padding-bottom: 3em;
+}
+
+footer li{
+	display: inline-block;
+	padding: 1em;
+	font-family: Arial, sans-serif;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+/*For mobile devices less than 870px*/
+
+@media only screen and (max-width: 870px){
+	.service-div,
+	input{
+		width: 100%;
+	}
+
+	.find-out-more div{
+		width: 90%;
+	}
+}
+
+
+
