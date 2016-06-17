@@ -5,14 +5,14 @@
 
 
 body {
-	background: #E7F5FF;
+	background: #F2F9FD;
 	font-size: 1.1rem;
 }
 
 h1,
 h2,
 h3{
-	font-family: 'Gilda Display', serif;
+	font-family: "Baskerville", serif;
 }
 
 h1{
@@ -25,7 +25,7 @@ p{
 }
 /* nav bar */
 nav{
-	background: #6E82F8;
+	background: #1D4486;
 }
 
 header ul{
@@ -42,7 +42,7 @@ header li{
 
 header a{
 	text-decoration: none;
-	color: darkblue;
+	color: #3F90CE;
 }
 
 section{
@@ -54,14 +54,24 @@ section{
 	background: url("../images/shutterstock_299616500.jpg");
 	background-position: fixed;
 	background-size: cover;
-	height: 400px;
+	height: 350px;
+}
+
+.welcome div{
+	padding-top: 0;
+	width: 100%;
 	text-align: center;
 	color: white;
 }
 
 .welcome h1{
-	padding-bottom: 3em;
-    padding-top: 4em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+header div{
+	height: 170px;
+	background: #F2F9FD;
 }
 
 /* legal services section */
@@ -125,11 +135,11 @@ padding-bottom: 2em;
     text-align: center;
     border-radius: 8px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
+    font-family: "baskerville-urw",sans-serif;
 }
 
 .button:hover{
-	background: white;
+	background: #F2F9FD;
 	cursor: pointer;
 }
 
@@ -201,7 +211,7 @@ textarea{
 
 /* resources Section */
 .resources{
-	background: #6E82F8;
+	background: #3F90CE;
 	color: white;
 	padding-bottom: 3em;
 }
@@ -224,7 +234,7 @@ textarea{
 /* footer section */
 footer{
 	text-align: center;
-	background: black;
+	background: #1D4486;
 	color: white;
 	padding: 3em 2em;
 }
@@ -236,7 +246,7 @@ footer ul{
 footer li{
 	display: inline-block;
 	padding: 1em;
-	font-family: Arial, sans-serif;
+	font-family: "baskerville-urw",sans-serif;
 }
 
 footer a{
