@@ -6,13 +6,12 @@
 
 body {
 	background: #F2F9FD;
-	font-size: 1.1rem;
 }
 
 h1,
 h2,
 h3{
-	font-family: "Baskerville", serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 h1{
@@ -21,11 +20,11 @@ h1{
 }
 
 p{
-	font-family: Verdana, sans-serif;
+	font-family: Arial, sans-serif;
 }
 /* nav bar */
 nav{
-	background: #1D4486;
+	background: #3F90CE;
 }
 
 header ul{
@@ -38,11 +37,28 @@ header li{
 	width: 20%;
 	display: inline-block;
 	padding: 2em 0;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
 }
 
 header a{
 	text-decoration: none;
-	color: #3F90CE;
+	color: #1D4486;
+}
+
+header img{
+	width: 300px;
+	margin: 2.5em;
+}
+
+#info {
+	font-family: 'Libre Baskerville', serif;
+    float: right;
+    margin: 5em 5%;
+    text-align: center;
+    font-size: 14px;
+    height: 30px;
+    color: #3F90CE;
 }
 
 section{
@@ -75,6 +91,10 @@ header div{
 }
 
 /* legal services section */
+
+.legal-services{
+	padding-top: 4em;
+}
 
 .service-container{
 	width: 70%;
@@ -135,7 +155,7 @@ padding-bottom: 2em;
     text-align: center;
     border-radius: 8px;
     margin: 0 auto;
-    font-family: "baskerville-urw",sans-serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .button:hover{
@@ -160,7 +180,7 @@ padding-bottom: 2em;
 }
 
 .choice-container h2{
-	font-family: Garamond, sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .choice-container div{
@@ -246,7 +266,7 @@ footer ul{
 footer li{
 	display: inline-block;
 	padding: 1em;
-	font-family: "baskerville-urw",sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 footer a{
@@ -256,6 +276,9 @@ footer a{
 /*For mobile devices less than 870px*/
 
 @media only screen and (max-width: 870px){
+	header img{
+		width: 40%;
+	}
 	.service-div,
 	input{
 		width: 100%;
@@ -276,7 +299,6 @@ footer a{
 	nav li{
 		width: 18%;
 		padding: 0;
-		color: white;
 		font-size: 14px;
 	}
 }
