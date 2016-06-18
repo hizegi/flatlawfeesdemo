@@ -101,14 +101,14 @@ header div{
 .service-container{
 	width: 70%;
 	margin: 0 auto;
-	padding-bottom: 3em;
+	padding-bottom: 4em;
 }
 
 .service-container div{
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	margin-top: 4em;
+	margin-top: 3em;
 }
 
 .service-div{
@@ -117,25 +117,27 @@ header div{
 
 .service-div img{
 width: 100px;
-padding-top: 2em;
-padding-bottom: 2em;
+padding-top: 3em;
+padding-bottom: 3em;
 }
 
 .service-div p{
 	margin: 0 auto;
-	width: 60%;
+	width: 226px;
+	margin-bottom: 1em;
+	text-align: left;
 }
 
 /* Find out More Section */
 .find-out-more{
-	background: url("../images/shutterstock_307415057.jpg");
+	background: url("../images/scale_of_justice.jpg");
 	background-position: fixed;
 	background-size: cover;
 	height: 800px;
 }
 
 .find-out-more h1{
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 .find-out-more div{
@@ -168,7 +170,7 @@ padding-bottom: 2em;
 
 /* The right choice section */
 .the-right-choice{
-	padding: 3em 2em;
+	padding: 3em 2% 4em 2%;
 }
 .choice-container{
 	border-bottom: 1px solid black;
@@ -178,7 +180,7 @@ padding-bottom: 2em;
 }
 
 .the-right-choice h1{
-	padding-bottom: 2em;
+	padding: 2em 0%;
 }
 
 .choice-container h2{
@@ -197,37 +199,39 @@ padding-bottom: 2em;
 /* Contact Us */
 .contact-us h1{
 	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
 select{
 	font-size: 15px;
 	background-color: white;
 	border-radius: 0px;
-	width: 200px;
+	width: 21%;
+	min-width: 220px;
 	height: 36px;
 	margin: 1.5em 0;
 	border: 2px solid black;
 }
 
 #subtopic{
-	margin-left: 100px;
+	margin-left: 11%;
 }
 
 input{
 	font-size: 15px;
-	height: 36px;
-	width: 50%;
-	margin: 1.5em 0;
+	height: 42px;
+	width: 46%;
+	margin: 1.5em 0%;
 	padding: 0 10px;
 	border: 2px solid black;
 }
 
 textarea{
 	font-size: 15px;
-	width: 100%;
-	height: 26em;
+	width: 98%;
+	height: 325px;
 	padding: 10px 10px;
-	margin-bottom: 3em;
+	margin: 1em 0 5em 0;
 	border: 2px solid black;
 }
 
@@ -288,8 +292,9 @@ footer a{
 	}
 
 	.service-div,
-	input{
-		width: 100%;
+	input,
+	textarea{
+		width: 94%;
 	}
 
 	.find-out-more div{
