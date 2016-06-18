@@ -16,7 +16,7 @@ h3{
 
 h1{
 	text-align: center;
-	font-size: 2.2rem;
+	font-size: 1.7em;
 }
 
 p{
@@ -108,7 +108,7 @@ header div{
 	display: inline-block;
 	text-align: center;
 	vertical-align: top;
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 .service-div{
@@ -124,7 +124,7 @@ padding-bottom: 3em;
 .service-div p{
 	margin: 0 auto;
 	width: 226px;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 	text-align: left;
 }
 
@@ -133,7 +133,7 @@ padding-bottom: 3em;
 	background: url("../images/scale_of_justice.jpg");
 	background-position: fixed;
 	background-size: cover;
-	height: 800px;
+	height: 650px;
 }
 
 .find-out-more h1{
@@ -158,9 +158,11 @@ padding-bottom: 3em;
     border: 2px solid black;
     text-align: center;
     border-radius: 8px;
+    font-family: Arial, sans-serif;
 }
 
-.find-out-more .button{
+.find-out-more .button,
+.resources .button{
 	margin: 0 auto;
 }
 
@@ -179,6 +181,7 @@ padding-bottom: 3em;
 	border-bottom: 1px solid black;
 	margin: 0 auto;
     padding: 0 8% 3em 8%;
+    max-width: 700px;
 }
 
 .the-right-choice h1{
@@ -187,7 +190,9 @@ padding-bottom: 3em;
 
 .choice-container h2{
 	font-family: 'Libre Baskerville', serif;
+	font-size: 1.3em;
 }
+
 
 .choice-container div{
 	margin-bottom: 2em;
@@ -225,7 +230,7 @@ padding-bottom: 3em;
 
 /* Contact Us */
 .contact-us{
-	padding: 3em 3% 0 3%;
+	padding: 3em 3% 5em 3%;
 }
 
 
@@ -304,10 +309,10 @@ footer ul{
 footer li{
 	display: inline-block;
 	padding: 1em;
-	font-family: 'Libre Baskerville', serif;
 }
 
 footer a{
+	font-family: Arial, sans-serif;
 	text-decoration: none;
 	color: white;
 }
@@ -323,6 +328,14 @@ footer a{
   	.choice-container div{
   		text-align: center;
   	}
+
+  	.choice-container p{
+	text-align: left;
+	}
+
+	.lefty{
+		float: none;
+	}
 }
 
 
