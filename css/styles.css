@@ -158,8 +158,10 @@ padding-bottom: 3em;
     border: 2px solid black;
     text-align: center;
     border-radius: 8px;
-    margin: 0 auto;
-    font-family: 'Libre Baskerville', serif;
+}
+
+.find-out-more .button{
+	margin: 0 auto;
 }
 
 .button:hover{
@@ -170,13 +172,13 @@ padding-bottom: 3em;
 
 /* The right choice section */
 .the-right-choice{
-	padding: 3em 2% 4em 2%;
+	padding-top: 3em;
+	margin: 0 8%;
 }
 .choice-container{
 	border-bottom: 1px solid black;
-	width: 70%;
 	margin: 0 auto;
-	padding-bottom: 3em;
+    padding: 0 8% 3em 8%;
 }
 
 .the-right-choice h1{
@@ -192,13 +194,43 @@ padding-bottom: 3em;
 	display: inline-block;
 }
 
-.choice-image img{
-	width: 100px;
+.lefty{
+	float: right;
 }
 
+.righty img{
+	width: 100%;
+	display: inline-block;
+}
+
+.lefty img{
+	width: 100%;
+	display: inline-block;
+}
+
+.right-text{
+	display: inline-block;
+	float: right;
+	text-align: left;
+	width: 75%;
+}
+
+.left-text{
+	display: inline-block;
+	float: left;
+	text-align: left;
+	width: 75%;
+}
+
+
 /* Contact Us */
+.contact-us{
+	padding: 3em 3% 0 3%;
+}
+
+
 .contact-us h1{
-	padding-top: 2em;
+	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
@@ -260,7 +292,7 @@ textarea{
 /* footer section */
 footer{
 	text-align: center;
-	background: #1D4486;
+	background: #141422;
 	color: white;
 	padding: 3em 2em;
 }
@@ -279,6 +311,22 @@ footer a{
 	text-decoration: none;
 	color: white;
 }
+
+
+/*For mobile devices less than 750px*/
+@media only screen and (max-width: 750px){
+  	.right-text,
+  	.left-text{
+  		width: 100%;
+  	}
+
+  	.choice-container div{
+  		text-align: center;
+  	}
+}
+
+
+
 /*For mobile devices less than 870px*/
 
 @media only screen and (max-width: 870px){
@@ -317,6 +365,5 @@ footer a{
 		margin-top: 1em;
 	}
 }
-
 
 
