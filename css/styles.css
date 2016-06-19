@@ -27,6 +27,13 @@ p{
 /* nav bar */
 nav{
 	background: #3F90CE;
+	display: flex;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+    justify-content: center;
 }
 
 header ul{
@@ -52,6 +59,7 @@ header img{
 	width: 300px;
 	margin-top: 2.5em;
 	margin-left: 3%;
+	padding-bottom: 1em;
 }
 
 #info {
@@ -135,7 +143,7 @@ padding-bottom: 3em;
 	background: url("../images/scale_of_justice.jpg");
 	background-position: fixed;
 	background-size: cover;
-	height: 650px;
+	padding-bottom: 4em;
 }
 
 .find-out-more h1{
@@ -169,7 +177,7 @@ padding-bottom: 3em;
 }
 
 .button:hover{
-	background: #F2F9FD;
+	background: white;
 	cursor: pointer;
 	color: black;
 }
@@ -328,6 +336,24 @@ footer img{
 
 /*For mobile devices less than 750px*/
 @media only screen and (max-width: 750px){
+
+	.welcome h1,
+	.welcome p{
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.welcome h1{
+		padding-top: 2em;
+	}
+
+	.welcome p{
+		padding-bottom: 4em;
+	}
+
+	.welcome{
+		height: auto;
+	}
   	.right-text,
   	.left-text{
   		width: 100%;
@@ -338,7 +364,7 @@ footer img{
   	}
 
   	.choice-container p{
-	text-align: left;
+		text-align: left;
 	}
 
 	.lefty{
@@ -346,36 +372,63 @@ footer img{
 	}
 
 	#convenience{
-		width: 60%;
+		width: 100%;
+	}
+
+	.find-out-more div{
+		width: 70%;
+		margin: 0 auto;
 	}
 
 	.find-out-more ul{
 		margin-bottom: 2em;
 	}
+
+	#info{ 
+		padding: 0;
+		width: 100%;
+	 }
+
+	 #logo{
+    	margin: 0 auto;
+        display: block;
+	 }
+
+	 header div{
+		padding-top: 2em;
+	}
+
+	.resources,
+	footer{
+		padding: 4em 15% 4em 15%;
+	}
+
+
+	footer li{
+	    padding: 0 0 1em 5%;
+	}
+
+	footer img{
+		width: 50%;
+	}
 }
-
-
 
 /*For mobile devices less than 870px*/
 
 @media only screen and (max-width: 870px){
-	#info{
-		padding: 0;
-		width: 100%;
+	.find-out-more{
+		height: auto;
 	}
 
+
 	header img{
-		min-width: 300px;
+		/*min-width: 300px;*/
 	}
 
 	.service-div,
 	input,
 	textarea{
 		width: 94%;
-	}
-
-	.find-out-more div{
-		width: 90%;
 	}
 
 	nav{
@@ -387,11 +440,7 @@ footer img{
 	}
 
 	nav li{
-		width: 22%;
-		padding: 0;
 		font-size: 10px;
-		vertical-align: middle;
-		margin-top: 1em;
 	}
 }
 
