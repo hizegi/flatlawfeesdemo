@@ -336,6 +336,14 @@ footer img{
 /************************************/
 @media only screen and (max-width: 750px){
 
+	header div{
+		height: 200px;
+	}
+
+	header img{
+		padding-bottom: 2em;
+	}
+
 	.welcome h1,
 	.welcome p,
 	.find-out-more div{
