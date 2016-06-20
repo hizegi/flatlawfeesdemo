@@ -199,7 +199,6 @@ header div{
 }
 
 .choice-container h2{
-	font-family: 'Libre Baskerville', serif;
 	font-size: 1.3em;
 }
 
@@ -322,7 +321,7 @@ footer li{
 }
 
 footer a{
-	font-family: Arial, sans-serif;
+	font-family: "proxima-nova",sans-serif;
 	text-decoration: none;
 	color: white;
 }
