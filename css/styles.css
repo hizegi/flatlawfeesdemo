@@ -6,12 +6,13 @@
 
 body {
 	background: #F2F9FD;
+	font-family: "proxima-nova",sans-serif;
 }
 
 h1,
 h2,
 h3{
-	font-family: 'Libre Baskerville', serif;
+	font-family: "baskerville-urw", serif;
 }
 
 h1{
@@ -20,11 +21,13 @@ h1{
 }
 
 p{
-	font-family: Arial, sans-serif;
 	line-height: 1.4;
 	font-size: 18px;
 }
+
+/***********/
 /* nav bar */
+/***********/
 nav{
 	background: #3F90CE;
 	display: flex;
@@ -46,7 +49,7 @@ header li{
 	width: 24%;
 	display: inline-block;
 	padding: 2em 0;
-	font-family: 'Libre Baskerville', serif;
+	font-family: "baskerville-urw", sans-serif;
 	font-size: 14px;
 }
 
@@ -57,14 +60,13 @@ header a{
 
 header img{
 	width: 300px;
-	margin-top: 2.5em;
-	margin-left: 3%;
+	margin: 2.5em 0 0 3%;
 	padding-bottom: 1em;
 }
 
 #info {
 	display: inline-block;
-	font-family: 'Libre Baskerville', serif;
+	font-family: "baskerville-urw", sans-serif;
     float: right;
     padding: 5em 5%;
     text-align: center;
@@ -77,7 +79,10 @@ section{
 	padding-top: 3em;
 }
 
+
+/******************/
 /* header section */
+/******************/
 .welcome{
 	background: url("../images/gavel_background.jpg");
 	background-position: fixed;
@@ -93,16 +98,16 @@ section{
 }
 
 .welcome h1{
-    padding-top: 3em;
-    padding-bottom: 2em;
+	padding: 3em 0 2em 0;
 }
 
 header div{
 	height: 170px;
 	background: #F2F9FD;
 }
-
+/**************************/
 /* legal services section */
+/**************************/
 
 .legal-services{
 	padding-top: 4em;
@@ -126,15 +131,13 @@ header div{
 }
 
 .service-div img{
-width: 100px;
-padding-top: 3em;
-padding-bottom: 3em;
+	width: 100px;
+	padding: 3em 0 3em 0;
 }
 
 .service-div p{
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 	width: 250px;
-	margin-bottom: 2em;
 	text-align: left;
 }
 
@@ -146,18 +149,13 @@ padding-bottom: 3em;
 	padding-bottom: 4em;
 }
 
-.find-out-more h1{
-	padding-bottom: 1em;
-}
-
 .find-out-more div{
 	width: 45%;
 	padding: 2em;
 }
 
 .find-out-more ul{
-	padding-top: 2em;
-    padding-left: 1em;
+	padding: 2em 0 0 1em;
     margin-bottom: 4em;
 }
 
@@ -168,7 +166,7 @@ padding-bottom: 3em;
     border: 2px solid black;
     text-align: center;
     border-radius: 8px;
-    font-family: Arial, sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 .find-out-more .button,
@@ -182,9 +180,9 @@ padding-bottom: 3em;
 	color: black;
 }
 
-
-
+/****************************/
 /* The right choice section */
+/****************************/
 .the-right-choice{
 	padding-top: 3em;
 	margin: 0 8%;
@@ -215,11 +213,7 @@ padding-bottom: 3em;
 	float: right;
 }
 
-.righty img{
-	width: 100%;
-	display: inline-block;
-}
-
+.righty img,
 .lefty img{
 	width: 100%;
 	display: inline-block;
@@ -239,15 +233,16 @@ padding-bottom: 3em;
 	width: 75%;
 }
 
-
+/***************/
 /* Contact Us */
+/***************/
 .contact-us{
-	padding: 3em 3% 5em 3%;
+	padding: 4em 3% 5em 3%;
 }
 
 
-.contact-us h1{
-	padding-top: 1em;
+.contact-us h1,
+.find-out-more h1{
 	padding-bottom: 1em;
 }
 
@@ -284,7 +279,9 @@ textarea{
 	border: 2px solid black;
 }
 
+/*********************/
 /* resources Section */
+/*********************/
 .resources{
 	background: #3F90CE;
 	color: white;
@@ -305,8 +302,9 @@ textarea{
 	border: 2px solid white;
 }
 
-
-/* footer section */
+/*********************/
+/* footer section   */
+/*********************/
 footer{
 	text-align: center;
 	background: #141422;
@@ -334,16 +332,20 @@ footer img{
 	margin: 2em 0 3em 0;
 }
 
+/************************************/
 /*For mobile devices less than 750px*/
+/************************************/
 @media only screen and (max-width: 750px){
 
 	.welcome h1,
-	.welcome p{
+	.welcome p,
+	.find-out-more div{
 		width: 70%;
 		margin: 0 auto;
 	}
 
-	.welcome h1{
+	.welcome h1,
+	header div{
 		padding-top: 2em;
 	}
 
@@ -354,8 +356,11 @@ footer img{
 	.welcome{
 		height: auto;
 	}
+
   	.right-text,
-  	.left-text{
+  	.left-text,
+  	#convenience,
+  	#info{
   		width: 100%;
   	}
 
@@ -371,22 +376,12 @@ footer img{
 		float: none;
 	}
 
-	#convenience{
-		width: 100%;
-	}
-
-	.find-out-more div{
-		width: 70%;
-		margin: 0 auto;
-	}
-
 	.find-out-more ul{
 		margin-bottom: 2em;
 	}
 
 	#info{ 
 		padding: 0;
-		width: 100%;
 	 }
 
 	 #logo{
@@ -394,15 +389,10 @@ footer img{
         display: block;
 	 }
 
-	 header div{
-		padding-top: 2em;
-	}
-
 	.resources,
 	footer{
 		padding: 4em 15% 4em 15%;
 	}
-
 
 	footer li{
 	    padding: 0 0 1em 5%;
@@ -412,17 +402,13 @@ footer img{
 		width: 50%;
 	}
 }
-
+/************************************/
 /*For mobile devices less than 870px*/
+/************************************/
 
 @media only screen and (max-width: 870px){
 	.find-out-more{
 		height: auto;
-	}
-
-
-	header img{
-		/*min-width: 300px;*/
 	}
 
 	.service-div,
@@ -431,6 +417,8 @@ footer img{
 		width: 94%;
 	}
 
+
+	/*fixed navigation bar for mobile*/
 	nav{
 		position: fixed;
 		left: 0px;
