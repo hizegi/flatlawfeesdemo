@@ -119,7 +119,7 @@ header div{
 }
 
 /*******************/
-/*     MODULE 1    */
+/*     MODULE 2    */
 /* 3 PHOTO TIER    */
 /*******************/
 .module2{
@@ -145,6 +145,28 @@ header div{
 	border: 2px solid white;
 }
 
+/*******************/
+/*     MODULE 3    */
+/* OFFICE LOCATIONS*/
+/*******************/
+.module3{
+	padding: 3em 2%;
+}
+
+.module3 h2{
+	font-family: "proxima-nova", sans-serif;
+}
+
+.module3 div{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 2%;
+}
+
+.module3 p{
+	font-size: 16px;
+}
 
 /**************************/
 /* legal services section */
