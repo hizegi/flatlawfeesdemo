@@ -227,6 +227,17 @@ header div{
 #answer3.hidden{
 	display: block;
 }
+
+/***********************/
+/*       MODULE 13     */
+/***********************/
+.module13{
+	background: #3F90CE;
+	margin: 0 auto;
+	padding: 4em 11%;
+	color: white
+}
+
 /**************************/
 /* legal services section */
 /**************************/
