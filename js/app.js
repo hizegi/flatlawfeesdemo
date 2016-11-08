@@ -13,5 +13,17 @@ window.onload = function() {
 	  $('#subtopic').html(options);
 	});
 
-};
+	//TOGGLE QUESTION AND ANSWERS ON AND OFF
+	$("#question1").click(function(){
+			$("#answer1").toggleClass('hidden');
+	});
 
+	$("#question2").click(function(){
+			$("#answer2").toggleClass('hidden');
+	});
+
+	$("#question3").click(function(){
+			$("#answer3").toggleClass('hidden');
+	});
+
+};

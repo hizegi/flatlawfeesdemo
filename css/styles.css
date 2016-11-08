@@ -157,6 +157,10 @@ header div{
 	font-family: "proxima-nova", sans-serif;
 }
 
+.module3 ul{
+	list-style-position: inside;
+}
+
 .module3 div{
 	width: 45%;
 	display: inline-block;
@@ -168,6 +172,61 @@ header div{
 	font-size: 16px;
 }
 
+/*******************/
+/*     MODULE 11   */
+/*    CONTACT US   */
+/*******************/
+.module11{
+	background: #1D4486;
+	color: white;
+	padding: 3em 4%;
+	text-align: center
+}
+
+.module11 div{
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	text-align: left;
+	margin-bottom: 4%;
+}
+
+#right-div{
+	float: right;
+	text-align:right;
+}
+
+/***********************/
+/*       MODULE 12     */
+/***********************/
+.module12{
+	padding: 3em 5%;
+}
+
+.module12 div{
+	width: 41%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 4%;
+}
+
+#question1,
+#question2,
+#question3{
+	cursor: pointer
+}
+
+#answer1,
+#answer2,
+#answer3{
+	display: none;
+}
+
+#answer1.hidden,
+#answer2.hidden,
+#answer3.hidden{
+	display: block;
+}
 /**************************/
 /* legal services section */
 /**************************/
@@ -527,7 +586,10 @@ footer img{
 
 	.service-div,
 	input,
-	textarea{
+	textarea,
+	.module2 div,
+	.module3 > div,
+	.module12 div{
 		width: 94%;
 	}
 
