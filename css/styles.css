@@ -161,6 +161,10 @@ header div{
 	list-style-position: inside;
 }
 
+.indented-list{
+	padding-left: 23%;
+}
+
 .module3 div{
 	width: 45%;
 	display: inline-block;
@@ -170,6 +174,37 @@ header div{
 
 .module3 p{
 	font-size: 16px;
+}
+
+/***********************/
+/*       MODULE 8
+         PHOTO GRID    */
+/***********************/
+.module8{
+	text-align: center;
+	padding: 3em;
+}
+
+.image-container {
+	display: inline-block;
+	margin: 3% 1%;
+  position: relative;
+  width: 214px;
+  height: 122px;
+}
+
+.image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+    background: rgba(0, 0, 0, .6);
+		align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 /*******************/
@@ -183,16 +218,19 @@ header div{
 	text-align: center
 }
 
-.module11 div{
+.module11 > div{
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	width: 44%;
 	text-align: left;
 	margin-bottom: 4%;
 }
 
+.module11 p{
+	font-size: 14px;
+}
+
 #right-div{
-	float: right;
 	text-align:right;
 }
 
@@ -321,6 +359,13 @@ button{
 	line-height: 1;
   font-size: 18px;
 }
+
+.white-button a,
+.white-button a:visited,
+.white-button a:hover,
+.white-button a:active
+ {color:#FFFFFF;
+ text-decoration: none;}
 
 #right-button{
 	float: right
@@ -565,27 +610,6 @@ footer img{
 	}
 }
 
-/**********************/
-/*Section 8 Styling*/
-/**********************/
-
-.image-container {
-    position: relative;
-    width: 200px;
-    height: 300px;
-}
-
-.image-container .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #FFF;
-    display: block;
-    background: rgba(0, 0, 0, .6);
-}
 /************************************/
 /*For mobile devices less than 870px*/
 /************************************/
@@ -600,10 +624,14 @@ footer img{
 	textarea,
 	.module2 div,
 	.module3 > div,
+	.module11 div,
 	.module12 div{
 		width: 94%;
 	}
 
+	.module11 > div{
+		text-align: center;
+	}
 
 	/*fixed navigation bar for mobile*/
 	nav{
@@ -612,6 +640,7 @@ footer img{
 		bottom: 0px;
 		height: 50px;
 		width: 100%;
+		z-index:100;
 	}
 
 	nav li{
