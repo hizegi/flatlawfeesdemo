@@ -80,25 +80,31 @@ section{
 }
 
 
-/******************/
-/* header section */
-/******************/
-.welcome{
+/*******************/
+/*     MODULE 1    */
+/* Welcome section */
+/*******************/
+.module1{
 	background: url("../images/gavel_background.jpg");
 	background-position: fixed;
 	background-size: cover;
-	height: 350px;
+	height: 300px;
+	padding: 0 2%;
 }
 
-.welcome div{
+.module1 div{
 	padding-top: 0;
 	width: 100%;
 	text-align: center;
 	color: white;
 }
 
-.welcome h1{
-	padding: 3em 0 2em 0;
+.module1 h1{
+	padding: 2em 0 2em 0;
+}
+
+.module1 p{
+	margin-bottom: 3%;
 }
 
 header div{
@@ -160,13 +166,15 @@ header div{
 }
 
 .find-out-more div .button,
-.button{
+.button,
+button{
 	padding: 0.6em;
     width: 150px;
     border: 2px solid black;
     text-align: center;
     border-radius: 8px;
     font-family: "proxima-nova", sans-serif;
+		background:none;
 }
 
 .find-out-more .button,
@@ -178,6 +186,17 @@ header div{
 	background: white;
 	cursor: pointer;
 	color: black;
+}
+
+.white-button{
+	border: 2px solid white;
+	color: white;
+	line-height: 1.4;
+  font-size: 18px;
+}
+
+#right-button{
+	float: right
 }
 
 /****************************/
@@ -344,23 +363,23 @@ footer img{
 		padding-bottom: 2em;
 	}
 
-	.welcome h1,
-	.welcome p,
+	.module1 h1,
+	.module1 p,
 	.find-out-more div{
 		width: 70%;
 		margin: 0 auto;
 	}
 
-	.welcome h1,
+	.module1 h1,
 	header div{
 		padding-top: 2em;
 	}
 
-	.welcome p{
+	.module1 p{
 		padding-bottom: 4em;
 	}
 
-	.welcome{
+	.module1{
 		height: auto;
 	}
 
