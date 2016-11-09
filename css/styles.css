@@ -104,8 +104,7 @@ header img{
 	color: white;
 }
 
-.module1 h1,
-.module2 h1{
+.module1 h1{
 	padding: 2em 0 1.5em 0;
 }
 
@@ -125,8 +124,12 @@ header div{
 .module2{
 	background: #3F90CE;
 	margin: 0 auto;
-	padding: 0 2% 2em 2%;
+	padding: 1em 2% 2em 2%;
 	color: white
+}
+
+.module2 h1{
+	padding: 1em 0 1.5em 0;
 }
 
 .module2 img{
@@ -283,11 +286,15 @@ header div{
 	background: white;
 }
 
+
 .module8 p{
 	text-align: left;
 	padding: 7%;
 }
 
+.module8 > p{
+	padding:2em;
+}
 /***********************/
 /*       MODULE 9
          REVIEWS       */
