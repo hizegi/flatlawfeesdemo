@@ -393,7 +393,6 @@ button{
 	font-size: 1.3em;
 }
 
-
 .choice-container div{
 	margin-bottom: 2em;
 	display: inline-block;
@@ -423,6 +422,9 @@ button{
 	width: 75%;
 }
 
+#legal_consultation img{
+	height: 150px;
+}
 /***************/
 /* Contact Us */
 /***************/
