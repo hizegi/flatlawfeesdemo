@@ -180,6 +180,18 @@ header div{
 }
 
 /***********************/
+/*       MODULE 7
+         LARGE LIST    */
+/***********************/
+.module7{
+    padding: 2em 10% 4em 10%;
+}
+
+.module7 h1{
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+/***********************/
 /*       MODULE 8
          PHOTO GRID    */
 /***********************/
