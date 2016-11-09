@@ -217,6 +217,37 @@ header div{
 #module4-container-div h1{
 	text-align: left;
 }
+
+/***********************/
+/*       MODULE 5
+      SIMPLE LAYOUT    */
+/***********************/
+.module5{
+	background: #3F90CE;
+	margin: 0 auto;
+	padding: 3em;
+	color: white
+}
+
+.module5 div{
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 2%
+}
+
+.module5 p{
+	margin: 1em auto;
+	width: 70%;
+}
+
+.module5 > h1{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
 /***********************/
 /*       MODULE 8
          PHOTO GRID    */
@@ -700,6 +731,7 @@ footer img{
 	textarea,
 	.module2 div,
 	.module3 > div,
+	.module5 div,
 	.module11 div,
 	.module12 div,
 	#module4-container-div div{
