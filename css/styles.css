@@ -187,9 +187,35 @@ header div{
     padding: 2em 10% 4em 10%;
 }
 
-.module7 h1{
+.module7 .sans-serif{
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+/***********************/
+/*       MODULE 4
+         LARGE LIST    */
+/***********************/
+.module4{
+	padding: 3em 2%;
+}
+
+#subtitle{
+	width: 65%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#module4-container-div div{
+		display: inline-block;
+		width: 28%;
+		text-align: left;
+		vertical-align: top;
+		padding: 2%;
+}
+
+#module4-container-div h1{
+	text-align: left;
 }
 /***********************/
 /*       MODULE 8
@@ -220,6 +246,43 @@ header div{
 		align-items: center;
     justify-content: center;
     display: flex;
+}
+
+.container{
+	background: white;
+}
+
+.module8 p{
+	text-align: left;
+	padding: 7%;
+}
+
+/***********************/
+/*       MODULE 9
+         REVIEWS       */
+/***********************/
+.module9{
+	padding: 3em;
+	background: white;
+	text-align: center;
+}
+
+#star-rating img{
+	width: 30%;
+}
+
+.module9 h1{
+	margin: 2em auto;
+	width: 50%;
+	color: grey;
+}
+
+#grey-review-location{
+	color: grey;
+}
+
+.module9 span{
+	margin: 0 1%;
 }
 
 /*******************/
@@ -638,7 +701,8 @@ footer img{
 	.module2 div,
 	.module3 > div,
 	.module11 div,
-	.module12 div{
+	.module12 div,
+	#module4-container-div div{
 		width: 94%;
 	}
 
