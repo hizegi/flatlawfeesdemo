@@ -195,6 +195,10 @@ header div{
 	margin-bottom: 2em;
 }
 
+.module7 p{
+	margin: 2%
+}
+
 /***********************/
 /*       MODULE 4
          LARGE LIST    */
@@ -745,7 +749,8 @@ footer img{
 		width: 94%;
 	}
 
-	.module11 > div{
+	.module11 > div,
+	#right-div{
 		text-align: center;
 	}
 
