@@ -128,12 +128,16 @@ header div{
 	color: white
 }
 
+#mod2-center-text{
+	text-align: center;
+}
+
 .module2 h1{
-	padding: 1em 0 1.5em 0;
+	padding: 1em 0;
 }
 
 .module2 img{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 }
 
 .module2 div{
@@ -141,7 +145,8 @@ header div{
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	padding: 2%
+	padding: 1%;
+	margin: 0 auto;
 }
 
 .circle_pic{
@@ -156,7 +161,7 @@ header div{
 /* OFFICE LOCATIONS*/
 /*******************/
 .module3{
-	padding: 3em 2%;
+	padding: 3em 0;
 }
 
 .module3 h2{
@@ -165,6 +170,7 @@ header div{
 
 .module3 ul{
 	list-style-position: inside;
+	line-height: 1.4;
 }
 
 .indented-list{
@@ -334,7 +340,7 @@ header div{
 .module11{
 	background: #1D4486;
 	color: white;
-	padding: 3em 4%;
+	padding: 4em 1% 3em 1%;
 	text-align: center
 }
 
@@ -343,7 +349,7 @@ header div{
 	vertical-align: top;
 	width: 44%;
 	text-align: left;
-	margin-bottom: 4%;
+	margin-bottom: 2%;
 }
 
 #right-div{
@@ -617,7 +623,7 @@ footer{
 	text-align: center;
 	background: #141422;
 	color: white;
-	padding: 3em 2em;
+	padding: 3em 1em 0em 1em;
 }
 
 footer ul{
@@ -637,7 +643,7 @@ footer a{
 
 footer img{
 	width: 20%;
-	margin: 2em 0 3em 0;
+	margin: 2em 0 1em 0;
 }
 
 /***********************/
