@@ -109,7 +109,8 @@ header img{
 }
 
 .module1 p{
-	margin-bottom: 1%;
+	width: 80%;
+	margin: 0 auto 1em auto;
 }
 
 header div{
@@ -503,6 +504,9 @@ button{
 	float: right
 }
 
+.white-button-margin{
+	margin-top: 0
+}
 /****************************/
 /* The right choice section */
 /****************************/
