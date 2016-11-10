@@ -580,6 +580,16 @@ button{
 /***************/
 /* Contact Us */
 /***************/
+.contact-us form{
+	position: relative;
+}
+
+.special-message{
+	position: absolute;
+	left: 57%;
+	top: 0;
+}
+
 .contact-us{
 	padding: 4em 3% 5em 3%;
 }
@@ -802,5 +812,11 @@ footer img{
 
 	nav li{
 		font-size: 10px;
+	}
+
+	.special-message{
+		position: relative;
+		left: auto;
+		margin-top: 2em;
 	}
 }
