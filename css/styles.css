@@ -269,8 +269,14 @@ header div{
 	padding: 3em 0;
 }
 
+.grid-align{
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 2%;
+}
+
 .image-wrapper{
-	max-width:900px;
+	max-width:950px;
 	margin: 0 auto;
 }
 
@@ -294,10 +300,12 @@ header div{
 		align-items: center;
     justify-content: center;
     display: flex;
+		font-size: 22px;
 }
 
 .container{
 	background: white;
+	padding-bottom: 2em;
 }
 
 
@@ -325,7 +333,7 @@ header div{
 
 .module9 h1{
 	margin: 2em auto;
-	width: 50%;
+	width: 70%;
 	color: grey;
 }
 
@@ -472,6 +480,7 @@ button{
     border-radius: 8px;
     font-family: "proxima-nova", sans-serif;
 		background:none;
+		font-size: 18px;
 }
 
 .find-out-more .button,
