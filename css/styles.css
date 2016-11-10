@@ -123,8 +123,7 @@ header div{
 /*******************/
 .module2{
 	background: #3F90CE;
-	margin: 0 auto;
-	padding: 1em 2% 2em 2%;
+	padding: 1em 1% 2em 1%;
 	color: white
 }
 
@@ -136,17 +135,12 @@ header div{
 	padding: 1em 0;
 }
 
-.module2 img{
-	margin-bottom: 1em;
-}
-
 .module2 div{
 	width: 29%;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	padding: 1%;
-	margin: 0 auto;
 }
 
 .circle_pic{
@@ -186,6 +180,10 @@ header div{
 
 .module3 p{
 	font-size: 16px;
+}
+
+#grey-text{
+	color: #b1aeae;
 }
 
 /***********************/
@@ -267,15 +265,20 @@ header div{
 /***********************/
 .module8{
 	text-align: center;
-	padding: 3em;
+	padding: 3em 0;
+}
+
+.image-wrapper{
+	max-width:900px;
+	margin: 0 auto;
 }
 
 .image-container {
 	display: inline-block;
-	margin: 3% 1%;
+	margin: 2.5em 1%;
   position: relative;
-  width: 214px;
-  height: 122px;
+  width: 275px;
+  height: 150px;
 }
 
 .image-container .overlay {
@@ -357,17 +360,23 @@ header div{
 }
 
 /***********************/
-/*       MODULE 12     */
+/*       MODULE 12
+     COMMON QUESTIONS  */
 /***********************/
 .module12{
-	padding: 3em 5%;
+	padding: 3em 0;
+	min-height: 355px;
 }
 
 .module12 div{
-	width: 41%;
+	width: 49%;
 	vertical-align: top;
 	display: inline-block;
-	margin: 4%;
+}
+
+.module12-wrapper{
+	width: 84%;
+	margin: 0 auto
 }
 
 #question1,
