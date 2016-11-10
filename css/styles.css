@@ -109,7 +109,7 @@ header img{
 }
 
 .module1 p{
-	width: 80%;
+	width: 83%;
 	margin: 0 auto 1em auto;
 }
 
@@ -321,6 +321,8 @@ header div{
 
 .module8 > p{
 	padding:2em;
+	width: 65%;
+  margin: 0 auto;
 }
 /***********************/
 /*       MODULE 9
