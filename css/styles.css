@@ -91,11 +91,15 @@ header img{
 /* Welcome section */
 /*******************/
 .module1{
-	background: url("../images/gavel_background.jpg");
+
 	background-position: fixed;
 	background-size: cover;
 	height: 307px;
 	padding: 0 2% 1em 2%;
+}
+
+#small-business{
+	background: url("https://i.imgur.com/anFu90k.png");
 }
 
 .module1 div{
@@ -273,6 +277,10 @@ header div{
 .module8{
 	text-align: center;
 	padding: 3em 0;
+}
+
+.module8 img{
+	width: 275px;
 }
 
 .grid-align{
