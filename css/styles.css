@@ -157,8 +157,8 @@ header img{
 	padding: 0 2% 1em 2%;
 }
 
-#rates{
-	background: url("https://i.imgur.com/115drzu.png");
+#sellers-attorney{
+	background: url("https://i.imgur.com/Hj4cK89.png");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -253,7 +253,7 @@ header div{
 .circle_pic{
 	height: 122px;
 	width: 122px;
-	border-radius: 61px;
+	border-radius: 64px;
 	border: 2px solid white;
 }
 
@@ -411,7 +411,7 @@ header div{
     height: 100%;
     display: none;
     color: #FFF;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .4);
 		align-items: center;
     justify-content: center;
     display: flex;
