@@ -411,7 +411,7 @@ header div{
     height: 100%;
     display: none;
     color: #FFF;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .5);
 		align-items: center;
     justify-content: center;
     display: flex;
