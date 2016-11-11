@@ -123,8 +123,23 @@ header img{
 	background-size: cover;
 	/*height: 307px;*/
 	padding: 0 2% 1em 2%;
+}
+
+#legal{
+	background: url("https://i.imgur.com/FyT3jab.png");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
 
 
+#wills-and-trust{
+	background: url("https://i.imgur.com/ZzhhL29.png");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
 }
 /*.module1{
 	background-position: fixed;
@@ -616,6 +631,7 @@ button{
 
 #legal_consultation img{
 	height: 150px;
+	width: 132px;
 }
 /***************/
 /* Contact Us */
