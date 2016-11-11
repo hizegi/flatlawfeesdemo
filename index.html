@@ -2,12 +2,15 @@
 <html>
 <head>
 	<title>Flat Law Fees</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 	<!-- TypeKit script for "baskerville-urw" and "proxima-nova" -->
 	<script src="https://use.typekit.net/sqn2hzy.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
 </head>
 <body>
 
@@ -148,7 +151,7 @@
 
 	<section class=contact-us id="contact-us">
 		<h1>Contact Us</h1>
-		<form>
+		<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzyxxqOF6MylVfKCruh2Dp4rN7gE4ZSzWcWaqAzbxruE6DJWPfJ/exec">
 
 			<!-- FIRST SELECT MENU OPTIONS -->
 			<select name="topic-choice" id="topic-choice">
@@ -175,9 +178,10 @@
 			<input type="text" name="name" placeholder="Name"/><br>
 			<input type="text" name="phone" placeholder="Phone"/><br>
 			<input type="text" name="email" placeholder="Email"/><br>
+			<span id="email-invalid" style="visibility:hidden">* Must be a valid email address</span>
 			<input type="text" name="availability" placeholder="When should an attorney contact you?"/><br>
 			<textarea placeholder="Your message...."></textarea><br>
-			<div class="button">Send</div>
+			<button class="button">Send</button>
 
 			<div class="special-message">
 				<h4>Message Title</h4>
@@ -185,6 +189,12 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra facilisis blandit. Fusce ultrices diam id mauris vehicula, nec consectetur quam feugiat. Quisque consequat consequat arcu. Nam lobortis eros non finibus dictum. Donec pretium diam at dolor molestie, sit amet congue sem luctus. Nulla facilisi.</p>
 			</div>
 		</form>
+
+		<!-- Customise the Thankyou Message People See when they submit the form: -->
+		 <div style="display:none;" id="thankyou_message">
+			 <h2><em>Thanks</em> for contacting us!
+				 We will get back to you soon!</h2>
+		 </div>
 	</section>
 
 	<!-- RESOURCES PANEL -->
@@ -213,5 +223,10 @@
 
 	<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
+	<!-- <script data-cfasync="false" type="text/javascript"
+		src="js/form-data.js"></script> -->
+		<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
 </body>
 </html>
