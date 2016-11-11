@@ -109,19 +109,29 @@ header img{
 	padding: 0 2% 1em 2%;
 }
 
+#trademark-and-copyright{
+	background: url("https://i.imgur.com/TMbctQU.png");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
+
 #wills-and-trust{
 	background: url("https://i.imgur.com/ZzhhL29.png");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
 	padding: 0 2% 1em 2%;
+
+
 }
-.module1{
+/*.module1{
 	background-position: fixed;
 	background-size: cover;
 	height: 307px;
 	padding: 0 2% 1em 2%;
-}
+}*/
 .module1 div{
 	padding-top: 0;
 	width: 100%;
