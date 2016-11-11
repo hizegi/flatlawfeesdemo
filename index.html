@@ -13,6 +13,32 @@
 
 </head>
 <body>
+  <!-- <?php
+  if(isset($_POST['submit'])){
+      $to = "ohchristineyi@gmail.com"; // this is your Email address
+      $from = $_POST['email']; // this is the sender's Email address
+      $full_name = $_POST['name'];
+      $topic_choice = $_POST['topic-choice'];
+      $subtopic = $_POST['subtopic'];
+      $phone_number = $_POST['phone'];
+      $availability = $_POST['availability'];
+      $comments = $_POST['comments'];
+      $subject = "Form submission";
+      $subject2 = "Copy of your form submission";
+      $message = $full_name . " wrote the following:" . "\n\n" . $topic_choice $subtopic $phone_number $availability . $comments;
+      $message2 = "Here is a copy of your message " . $full_name . "\n\n" . $topic_choice $subtopic $phone_number $availability $comments;;
+
+      $headers = "From:" . $from;
+      $headers2 = "From:" . $to;
+      mail($to,$subject,$message,$headers);
+      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+      echo "Mail Sent. Thank you " . $full_name . ", we will contact you shortly.";
+      // You can also use header('Location: thank_you.php'); to redirect to another page.
+      }
+  ?> -->
+
+
+
 
 	<!-- NAVIGATION PANEL -->
 
@@ -151,7 +177,7 @@
 
 	<section class=contact-us id="contact-us">
 		<h1>Contact Us</h1>
-		<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzyxxqOF6MylVfKCruh2Dp4rN7gE4ZSzWcWaqAzbxruE6DJWPfJ/exec">
+		<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwRcnvBTti6fbNRHo2T9R6bXUMqDXMRc6iKbQ4V7YrZiiHKkBI/exec">
 
 			<!-- FIRST SELECT MENU OPTIONS -->
 			<select name="topic-choice" id="topic-choice">
@@ -180,8 +206,8 @@
 			<input type="text" name="email" placeholder="Email"/><br>
 			<span id="email-invalid" style="visibility:hidden">* Must be a valid email address</span>
 			<input type="text" name="availability" placeholder="When should an attorney contact you?"/><br>
-			<textarea placeholder="Your message...."></textarea><br>
-			<button class="button">Send</button>
+			<textarea name="comments" placeholder="Your message...."></textarea><br>
+			<input type="submit" name="submit" value="Send" class="button">
 
 			<div class="special-message">
 				<h4>Message Title</h4>
