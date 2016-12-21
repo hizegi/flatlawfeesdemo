@@ -524,22 +524,25 @@ header div{
 	margin: 0 auto
 }
 
-#question1,
-#question2,
-#question3{
-	cursor: pointer
+.module12 p{
+	padding-bottom: 1em
 }
 
-#answer1,
-#answer2,
-#answer3{
+.question{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.answer{
 	display: none;
 }
 
-#answer1.hidden,
-#answer2.hidden,
-#answer3.hidden{
+.answer.hidden{
 	display: block;
+}
+
+#faq-div{
+	width: 100%
 }
 
 /***********************/
