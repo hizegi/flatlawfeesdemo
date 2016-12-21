@@ -205,6 +205,13 @@ header img{
 	padding: 0 2% 1em 2%;
 }
 
+#helpful_resources{
+	background: url("https://i.imgur.com/CXnca6o.jpg");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
 /*.module1{
 	background-position: fixed;
 	background-size: cover;
