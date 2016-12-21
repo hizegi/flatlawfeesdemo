@@ -150,7 +150,7 @@ header img{
 }
 
 #real-estate{
-	background: url("https://i.imgur.com/jRTNmeM.png");
+	background: url("https://i.imgur.com/9Nqg0Nd.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -656,6 +656,7 @@ button{
 .white-button-margin{
 	margin-top: 0
 }
+
 /****************************/
 /* The right choice section */
 /****************************/
@@ -831,6 +832,10 @@ footer img{
 	background: white;
 	cursor: pointer;
 	color: black;
+}
+
+.white-button:hover{
+	cursor: pointer
 }
 
 /***********************/
