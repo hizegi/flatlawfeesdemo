@@ -10,6 +10,7 @@ function validEmail(email) { // see:
 // get all data in form and return object
 function getFormData() {
   var elements = document.getElementById("gform").elements; // all form elements
+  console.log(elements)
   var fields = Object.keys(elements).map(function(k) {
     if(elements[k].name !== undefined) {
       return elements[k].name;
@@ -34,6 +35,8 @@ function getFormData() {
       }
     }
   });
+
+  console.log("Fields: ", fields)
   console.log(data);
   return data;
 }
