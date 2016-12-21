@@ -38,113 +38,13 @@
 
 	<section class="module1" id="welcome-page">
 		<div>
-			<h1>Welcome. We are here to help.</h1>
-			<p>Our law office provides flat fee legal services for NY & NJ <br>
-			Licensed attorneys at flat fee lawyer rates, for your legal needs.</p>
+			<h1>Contact Us</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac eros quis lacus cursus rhoncus. Sed venenatis velit odio, vitae dapibus diam posuere eget.</p>
 		</div>
 		<a href="why_us.html"><button class="white-button">Why Us?</a></button>
 		<a href="rates.html"><button class="white-button" id="right-button">Our Fees</a></button>
 	</section>
 
-	<!-- LEGAL SERVICES PANEL -->
-
-	<section class="legal-services">
-		<h1>Legal Services</h1>
-		<div class="service-container">
-			<div class="service-div">
-				<h3>Real Estate</h3>
-				<a href="real_estate.html"><img src="images/home.svg" alt="real estate home icon"></a>
-				<p>An educated and experienced lawyer to help you from contract to closing and more.</p>
-			</div>
-			<div class="service-div">
-				<h3>Small Business</h3>
-				<a href="small_business_legal_services.html"><img src="images/office-briefcase.svg" alt="small business briefcase icon"></a>
-				<p>It's time to take the right step for your business, work with a lawyer.</p>
-			</div>
-			<div class="service-div">
-				<h3>Trademark & Copyright</h3>
-				<a href="trademark_and_copyright_registration.html"><img src="images/copyright.svg" alt="trademark and copyright icon"></a>
-				<p>It's your brand, creative ideas and hard work. Be smart, protect it.</p>
-			</div>
-			<div class="service-div">
-				<h3>Wills and Trusts</h3>
-				<a href="wills_and_trust.html"><img src="images/signing-the-contract.svg" alt="wills and trust contract icon"></a>
-				<p>Have your last wishes honored, leave instructions. Look out for your loved ones.</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- FIND OUT MORE PANEL -->
-
-	<section class="find-out-more">
-		<div>
-			<h1>Get quality legal services at an affordable, flat fee rate.</h1>
-			<p>An attorney licensed to practive law in your state will assist you with your legal needs - all for an affordable flat fee rate. Once in agreement, you receive the benefits of an actual attorney-client relationship. Work with a real lawyer and receive advantages such as:</p>
-			<ul>
-				<li><p>Have your rights and best interests protected by a legal mind</p></li>
-				<li><p>Opinions and decisions based on actual knowledge of the law</p></li>
-				<li><p>Improved chances to mitigate risk and avoid legal pitfalls</p></li>
-				<li><p>Informed transparency while we work on your legal matter</p></li>
-			</ul>
-			<div class="button">
-				<p>Find Out More</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- THE RIGHT CHOICE PANEL -->
-
-	<section class="the-right-choice">
-		<div class="choice-container">
-			<h1>You're in need of a lawyer. Make the right choice.</h1>
-
-			<div>
-				<div class="righty">
-					<img src="images/keyboardhands.jpg">
-				</div>
-				<div class="right-text">
-					<h2>Reach out to us now</h2>
-					<p>Contact us today and schedule time to review your legal matter with an attorney.
-					</p>
-				</div>
-			</div>
-
-			<div>
-				<div class="lefty">
-					<img src="images/checking_cell.jpg">
-				</div>
-				<div class="left-text">
-					<h2>We'll get back to you ASAP</h2>
-					<p>After an attorney connects with you and your legal needs have been identified, we send you a retainer agreement.
-					</p>
-				</div>
-			</div>
-
-
-			<div>
-				<div class="righty">
-					<img src="images/signature.jpg">
-				</div>
-				<div class="right-text">
-					<h2>Evaluate, sign and send back.</h2>
-					<p>Once our law office receives a fully signed agreement and formalities are complete, the attorney-client relationship begins.
-					</p>
-				</div>
-			</div>
-
-
-			<div>
-				<div class="lefty">
-					<img src="images/handshake.jpg">
-				</div>
-				<div class="left-text">
-					<h2>Now we work for you</h2>
-					<p>An attorney is assigned to you and provides flat fee legal services from start to finish.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!-- CONTACT US PANEL -->
 
@@ -161,14 +61,13 @@
 				<option value="5">Legal Consultation</option>
 			</select><br> -->
 
-			<div>
+
           <h2 class="sans-serif">Categories:</h2>
-					<input type="text" name="data">
-          <select data-placeholder="Search or select 1 or more interests..." style="width:350px;" class="chosen-select" multiple tabindex="6">
+          <select name="topics" data-placeholder="Search or select 1 or more interests..." style="width:350px;" class="chosen-select" multiple tabindex="6">
             <option value=""></option>
-            <optgroup label="Residential Real Estate">
-							<option value="1">1-3 Family House Sale</option>
-							<option value="1">1-3 Family House Purchase</option>
+            <optgroup name="topic" label="Residential Real Estate">
+							<option name="option" value="1">1-3 Family House Sale</option>
+							<option name="option1" value="1">1-3 Family House Purchase</option>
 							<option value="1">Condominium Sale</option>
 							<option value="1">Condominium Purchase</option>
 							<option value="1">Co-op Apartment Sale</option>
@@ -213,10 +112,7 @@
               <option>Consultation by Phone/Video</option>
               <option>Consultation by Live Meeting</option>
             </optgroup>
-          </select>
-				</input>
-        </div>
-      </div>
+          </select><br><br>
 
 			<!-- SUBTOPIC OPTIONS, INCR VALUE BY 1 FOR MORE OPTIONS (ie. "value="54" FOR THE 54th OPTION) -->
 			<!-- <select name="subtopic" id="subtopic" > -->
@@ -300,7 +196,6 @@
     <p>&copy; 2016-[Future Year] by Kuznia Law, LLC. All rights reserved.</p>
     <img src="images/new_york_new_jersey_flag.png">
   </footer>
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
   <script src="js/chosen.jquery.js" type="text/javascript"></script>

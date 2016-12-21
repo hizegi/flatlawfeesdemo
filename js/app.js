@@ -13,17 +13,12 @@ window.onload = function() {
 	  $('#subtopic').html(options);
 	});
 
-	//TOGGLE QUESTION AND ANSWERS ON AND OFF
-	$("#question1").click(function(){
-			$("#answer1").toggleClass('hidden');
-	});
 
-	$("#question2").click(function(){
-			$("#answer2").toggleClass('hidden');
-	});
-
-	$("#question3").click(function(){
-			$("#answer3").toggleClass('hidden');
-	});
-
+	// TOGGLES FAQ QUESTIONS/ANSWERS
+	for (var i = 1; i < 50; i++){
+		$("#question" + i).click(function(){
+			var $answer = $("#answer" + i);
+			$(this).next().toggleClass('hidden');
+		})
+	}
 };

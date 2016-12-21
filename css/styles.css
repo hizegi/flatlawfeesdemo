@@ -110,7 +110,7 @@ header img{
 }
 
 #trademark-and-copyright{
-	background: url("https://i.imgur.com/TMbctQU.png");
+	background: url("https://i.imgur.com/rZoe7oS.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -118,7 +118,7 @@ header img{
 }
 
 #wills-and-trust{
-	background: url("https://i.imgur.com/ZzhhL29.png");
+	background: url("https://i.imgur.com/JcIpPN7.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -134,7 +134,7 @@ header img{
 }
 
 #exchange-escrow{
-	background: url("https://i.imgur.com/bHGowbm.png");
+	background: url("https://i.imgur.com/4lT3Yi9.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -150,7 +150,7 @@ header img{
 }
 
 #real-estate{
-	background: url("https://i.imgur.com/jRTNmeM.png");
+	background: url("https://i.imgur.com/9Nqg0Nd.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -158,7 +158,7 @@ header img{
 }
 
 #sellers-attorney{
-	background: url("https://i.imgur.com/Hj4cK89.png");
+	background: url("https://i.imgur.com/3klWKHU.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -205,6 +205,13 @@ header img{
 	padding: 0 2% 1em 2%;
 }
 
+#helpful_resources{
+	background: url("https://i.imgur.com/CXnca6o.jpg");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
 /*.module1{
 	background-position: fixed;
 	background-size: cover;
@@ -291,6 +298,11 @@ header div{
 	display: inline-block;
 	vertical-align: top;
 	margin: 2%;
+}
+
+.locations > div{
+	width: 90%;
+	text-align: center;
 }
 
 .module3 p{
@@ -517,22 +529,25 @@ header div{
 	margin: 0 auto
 }
 
-#question1,
-#question2,
-#question3{
-	cursor: pointer
+.module12 p{
+	padding-bottom: 1em
 }
 
-#answer1,
-#answer2,
-#answer3{
+.question{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.answer{
 	display: none;
 }
 
-#answer1.hidden,
-#answer2.hidden,
-#answer3.hidden{
+.answer.hidden{
 	display: block;
+}
+
+#faq-div{
+	width: 100%
 }
 
 /***********************/
@@ -617,11 +632,7 @@ button{
 	margin: 0 auto;
 }
 
-.button:hover{
-	background: white;
-	cursor: pointer;
-	color: black;
-}
+
 
 .white-button{
 	border: 2px solid white;
@@ -645,6 +656,7 @@ button{
 .white-button-margin{
 	margin-top: 0
 }
+
 /****************************/
 /* The right choice section */
 /****************************/
@@ -777,6 +789,13 @@ textarea{
 
 .resources .button{
 	border: 2px solid white;
+	text-align: center;
+	margin: 0 auto;
+	color: white;
+}
+
+.resources a{
+	text-decoration: none;
 }
 
 /*********************/
@@ -807,6 +826,16 @@ footer a{
 footer img{
 	width: 20%;
 	margin: 2em 0 1em 0;
+}
+
+.button:hover{
+	background: white;
+	cursor: pointer;
+	color: black;
+}
+
+.white-button:hover{
+	cursor: pointer
 }
 
 /***********************/
