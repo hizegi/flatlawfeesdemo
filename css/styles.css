@@ -300,6 +300,11 @@ header div{
 	margin: 2%;
 }
 
+.locations > div{
+	width: 90%;
+	text-align: center;
+}
+
 .module3 p{
 	font-size: 16px;
 }
