@@ -110,7 +110,7 @@ header img{
 }
 
 #trademark-and-copyright{
-	background: url("https://i.imgur.com/rZoe7oS.jpg");
+	background: url("../images/banners/trademark_copyright_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -190,7 +190,7 @@ header img{
 }
 
 #legal{
-	background: url("https://i.imgur.com/FyT3jab.png ");
+	background: url("../images/banners/legal_consultation_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
