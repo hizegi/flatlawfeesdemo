@@ -142,7 +142,7 @@ header img{
 }
 
 #why-us{
-	background: url("https://i.imgur.com/N6OMsPb.png");
+	background: url("../images/banners/why_us_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -150,7 +150,7 @@ header img{
 }
 
 #real-estate{
-	background: url("https://i.imgur.com/9Nqg0Nd.jpg");
+	background: url("../images/banners/real_estate_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -166,7 +166,7 @@ header img{
 }
 
 #rates{
-	background: url("https://i.imgur.com/115drzu.png");
+	background: url("../images/banners/rates_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
