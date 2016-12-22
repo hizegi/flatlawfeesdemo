@@ -134,7 +134,7 @@ header img{
 }
 
 #exchange-escrow{
-	background: url("https://i.imgur.com/4lT3Yi9.jpg");
+	background: url("../images/banners/1031_exchange_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -174,7 +174,7 @@ header img{
 }
 
 #property-deed{
-	background: url("https://i.imgur.com/g1AkUrE.png");
+	background: url("../images/banners/property_deed_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -182,7 +182,7 @@ header img{
 }
 
 #rental-agreement{
-	background: url("https://i.imgur.com/3Q2h6Fa.png");
+	background: url("../images/banners/rental_agreements_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
