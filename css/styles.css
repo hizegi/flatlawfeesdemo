@@ -94,7 +94,7 @@ header img{
 
 
 #welcome-page{
-	background: url("../images/gavel_background.jpg");
+	background: url("../images/banners/gavel_background.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -102,7 +102,7 @@ header img{
 }
 
 #small-business{
-	background: url("https://i.imgur.com/anFu90k.png");
+	background: url("../images/banners/small_business.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -118,7 +118,7 @@ header img{
 }
 
 #wills-and-trust{
-	background: url("https://i.imgur.com/JcIpPN7.jpg");
+	background: url("../images/banners/wills_and_trust_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
