@@ -198,7 +198,7 @@ header img{
 }
 
 #mortgage-and-refinance{
-	background: url("https://i.imgur.com/8gHqlwg.png");
+	background: url("../images/banners/mortgage_refinance_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
@@ -206,7 +206,23 @@ header img{
 }
 
 #helpful_resources{
-	background: url("https://i.imgur.com/CXnca6o.jpg");
+	background: url("../images/banners/helpful_resources_banner.jpg");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
+
+#contact_banner{
+	background: url("../images/banners/contact_us_banner.jpg");
+	background-position: fixed;
+	background-size: cover;
+	/*height: 307px;*/
+	padding: 0 2% 1em 2%;
+}
+
+#locations_banner{
+	background: url("../images/banners/locations_banner.jpg");
 	background-position: fixed;
 	background-size: cover;
 	/*height: 307px;*/
