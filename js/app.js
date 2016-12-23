@@ -26,7 +26,6 @@ $(document).ready(function () {
 		$("select").on('change', function()	 {
 		array = [];
 		var $testing = $( "select option:selected" ).text();
-		console.log($testing);
 			array.push($testing)
 			$('#hidden_input').val(array);
 		});
