@@ -1,5 +1,4 @@
-window.onload = function() {
-
+$(document).ready(function () {
 	// CHANGE TOPICS & CORRESPONDING SUBTOPICS ON <select> MENUS
 	$("#topic-choice").change(function() {
 
@@ -21,4 +20,15 @@ window.onload = function() {
 			$(this).next().toggleClass('hidden');
 		})
 	}
-};
+
+	//CONTACT US: multi-check options for e-mail
+	var array = [];
+		$("select").on('change', function()	 {
+		array = [];
+		var $testing = $( "select option:selected" ).text();
+		console.log($testing);
+			array.push($testing)
+			$('#hidden_input').val(array);
+		});
+
+});

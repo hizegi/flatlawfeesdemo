@@ -855,6 +855,12 @@ footer img{
 }
 
 /***********************/
+/* CONTACT FORM INPUT  */
+/***********************/
+#hidden_input{
+	/*display: none*/
+}
+/***********************/
 /* HEADLINES TYPOGRAPHY*/
 /***********************/
 .sans-serif{
